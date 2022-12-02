@@ -1,0 +1,269 @@
+
+
+
+.wrap {
+    display: flex;
+    margin: auto;
+
+    border-radius: 15px;
+    width: max-content;
+    padding: 2vmin;
+    justify-content: space-between;
+}
+
+.coso {
+    background-color: #FFD60A;
+    display: block;
+    margin-top: 40%;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.coso a {
+    color: #003566;
+    display: block;
+    text-align: center;
+    margin: auto;   
+    text-decoration: none;
+    font-size: 7vmin;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.mapa {
+    display: block;
+    width: 25%;
+    border-radius: 16px;
+    margin-right: 10vw;
+    margin-left: 0;
+}
+
+iframe {
+    width: 25%;
+    border-radius: 16px;
+}
+
+.form {
+
+    background-color: #ffff;
+    margin: auto;
+    width: 20vw;
+    max-width: 35vw;
+    padding: 3vmin 3vmin;
+    height: 55vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 30%);
+}
+
+.grupo {
+    margin: 0;
+    margin-top: 3vmin;
+    position: relative;
+    --color: #5757577e;
+}
+
+.casilla {
+
+    margin-bottom: 10px;
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    background-color: #706c6c12;
+    border-radius: 5px;
+    font-size: 2vmin;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.casilla:focus+.etiqueta,
+.casilla:not(:placeholder-shown)+.etiqueta {
+    transform: translateY(-14px) scale(1);
+    transform-origin: left top;
+    color: var(--colorblue);
+}
+
+.etiqueta {
+
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+    font-size: 2vmin;
+}
+
+
+/* Filas de 3 */
+/* Columnas de input */
+
+
+/* Input */
+.submit {
+    background: #3696d9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5vmin;
+    padding: 1vmin 0;
+    border: none;
+    border-radius: .5em;
+    width: 100%;
+    height: auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 1vmin;
+    transition: .2s ease-in-out;
+}
+
+.submit:hover {
+    background: #215f8a;
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+.btn-group{
+    margin-top: 3em;
+    text-align: center;
+}
+.btn-group .btn{
+    display: block;
+    margin-bottom: 2vmin;
+    border: none;
+    border-radius: 3em;
+    background-color: #003566;
+    box-shadow: 0.2vmin 0.2vmin 0.2vmin 0.2vmin rgba(116, 114, 114, 0.3);
+    padding: 0.7em 2.5em;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    height: 4vmin;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.6vmin;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: 0.5s all;
+}
+.btn-group .active, .btn:hover {
+    background-color: #f1f1f1;
+    color: #003566;
+}
+
+.buttons{
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+}
+.buttons img{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    margin: 1rem;
+    width: 7rem;
+    height: 5rem;
+}
+.volver h1 {
+    color: white;
+    margin-left: 1.7em;
+    font-family: Poppins, sans-serif;
+    font-size: 5vmin;
+}
+
+.volver a {
+    position: absolute;
+    top: 1.5vmax;
+    right: 1.7em;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+
+.main{
+    margin: 0;
+    padding: 0;
+    background-color: #003566;
+    max-width: 90%;
+}
+.conte{
+    display: flex;
+    margin: 6em;
+    margin-top: 4.1vw;
+    margin-bottom: auto;
+    margin-left: 2vw;
+    margin-right: auto;
+}
+iframe{
+    margin: auto;
+    width: 110%;
+    border-radius: 1vw;
+}
+.btn{
+    width: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3696D9;
+    border: none;
+    border-radius: 3em;
+    color: white;
+    font-weight: bold;
+    height: 3em;
+}
+.registro{
+    border: solid white;
+    border-radius: 1vw;
+    background-color: white;
+    width: 40em;
+    padding: 3vmin;
+    margin-left: 6vmin;
+}
+.campos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registro h2{
+    font-weight: bold;
+}
+.input{
+    width: 25em;
+    height: 3em;
+    margin-bottom: 2em;
+    font-size: 2vmin;
+    border-radius: 0.5vw;
+    background-color: #EEEEEE;
+    border: none;
+    padding: 0.4vw;
+    overflow-x:visible;
+}
+.registro h2{
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+.btn-inp{
+    background-color: black;
+    color: white;
+    height: 5em;
+    border-radius: 0.5vw;
+}
+.hidden{
+    display: none;
+}

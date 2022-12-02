@@ -1,0 +1,100 @@
+.nav_links a {
+    text-decoration: none !important;
+}
+
+.nav_links li a:hover {
+    color: #0088a9 !important;
+}
+
+.cerrar {
+    padding: 9px 25px !important;
+    background-color: rgba(0,136,169,1) !important;
+    border: none !important;
+    border-radius: 50px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease 0s !important;
+    width: 25vh !important;
+    color: white !important;
+}
+
+.cerrar:hover {
+    background-color: rgba(0,136,169,0.8) !important;
+}
+
+.cerrar2 {
+    padding: 9px 25px !important;
+    background-color: rgba(0,136,169,1) !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease 0s !important;
+    font-size: 3vh !important;
+    font-weight: 300 !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.cerrar2:hover {
+    background-color: rgba(0,136,169,0.8) !important;
+}
+
+/*Tarjetas Instagram y api Whatsapp*/
+
+.insta{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-block: 2rem 4rem;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.social{
+    margin: 1.7rem;
+}
+
+.whatsapp-container{
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    bottom: 6%;
+    left: 2%;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+}
+.whatsapp-text{
+    position: relative;
+    z-index: 99;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    margin: auto 0;
+    border-radius: 2rem;
+    display: inline-block;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.1);
+    display: none;
+}
+
+.whatsapp-image:hover ~ .whatsapp-text{
+    display: block;
+}
+@keyframes whatsapp{
+0%{
+transform: scale(0);
+}
+100%{
+transform: scale(1);
+
+}
+}
+@media (hover: none){
+.whatsapp-text{
+display: none !important;
+}
+}
+/*-------------------------------------*/

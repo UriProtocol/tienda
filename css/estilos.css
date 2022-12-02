@@ -1,0 +1,81 @@
+:root {
+    --dark: #16191C;
+    --dark-x: #1E2126; 
+    --light: #ffffff;
+}
+
+.text-light { color: var(--light) !important; }
+.text-dark { color: black !important; }
+.bg-dark { background-color: var(--dark) !important; }
+.bg-dark-x { background-color: var(--dark-x); }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+    color: #8d8d8d;
+}
+
+
+.img-1 {
+    background-image: url(../img/form.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    margin-top: 3vh;
+    font-size: 5vh !important;
+}
+
+.ver {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.acciones {
+    width: 15% !important;
+
+}
+
+.matricula {
+    width: 5% !important;
+} 
+
+.nombre {
+    width: 20% !important;
+}
+
+.especialidad {
+    width: 20% !important;
+}
+
+.acciones_espacio {
+    width: 20% !important;
+}
+
+.card-text {
+    font-size: 1vmax !important;
+}
+
+.contacto {
+    width: 50% !important;
+}
+
+.img_inicio {
+    width: 38vh !important;
+    height: 30vh !important;
+}
+
+.bienvenido {
+    font-size: 4vh !important;
+}
+
+.user {
+    font-size: 4vh !important;
+}
